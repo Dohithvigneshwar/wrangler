@@ -1,0 +1,35 @@
+1. How to add support for BYTE_SIZE and TIME_DURATION units in an ANTLR grammar?
+2. Write ANTLR lexer rules for units like KB, MB, GB, ms, s, m, h.
+3. Where to paste new tokens in Directives.g4 for CDAP Wrangler?
+4. How to regenerate ANTLR parser after modifying Directives.g4?
+5. What is the correct mvn command to recompile grammar in a Maven project?
+6. How to mark generated ANTLR sources as source root in IntelliJ?
+7. How to fix 'Cannot resolve symbol DirectivesParser' in IntelliJ?
+8. Implement a ByteSize class in Java that parses values like 10KB or 2MB.
+9. Implement a TimeDuration class in Java that parses values like 150ms or 2.5h.
+10. How to extend Token.java in CDAP Wrangler with new custom token types?
+11. How to handle BYTE_SIZE and TIME_DURATION tokens inside visitValue() method?
+12. How to use ctx.getToken() properly in ANTLR 4 Java visitors?
+13. How to add BYTE_SIZE and TIME_DURATION parsing logic in RecipeVisitor.java?
+14. Sample visitValue() override in Java to support new tokens in ANTLR.
+15. How to create an aggregation directive in CDAP Wrangler using Directive API?
+16. Write a directive to sum all ByteSize and TimeDuration values from rows.
+17. How to store aggregate state using ExecutorContext and Store in Wrangler?
+18. Best way to return a single Row as aggregation output in a Wrangler directive?
+19. How to test custom directives using DirectiveTester in Wrangler?
+20. Write JUnit test for ByteSize class covering values like 1KB, 1MB, 2.5GB.
+21. Write JUnit test for TimeDuration class covering 150ms, 1.5s, 2m.
+22. Fix Maven error 'Unknown lifecycle phase .skip=true'.
+23. Correct usage of -Dcheckstyle.skip=true with Maven.
+24. How to zip a Maven project for submission (excluding .git)?
+25. Help writing README.md section for ByteSize and TimeDuration enhancements.
+26. How to convert ByteSize to MB and TimeDuration to seconds in aggregation?
+27. How to assert floating point equality in JUnit with tolerance?
+28. Final checklist before submitting Java-based directive assignment with ANTLR and Maven.
+29. Resolve IntelliJ showing red errors after grammar changes in ANTLR 4.
+30. Explain full step-by-step flow of building, testing and committing changes for Wrangler.
+31. How to fork a public GitHub repository and clone it locally using Git?
+32. How to commit and push modified Java files to a forked GitHub repo?
+33. How to handle exceptions in custom directives in CDAP Wrangler (e.g., null values)?
+34. How to resolve 'cannot find symbol' or 'method does not override' errors in IntelliJ after grammar change?
+35. How to use try-catch for parsing exceptions when dealing with ByteSize and TimeDuration in Java?
